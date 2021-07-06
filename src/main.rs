@@ -1,7 +1,10 @@
-// my hello world program
+mod game;
+mod roster;
+mod shapes;
+mod box_compare;
+mod display_trait;
+mod location;
 fn main() {
-    /*multiple line
-    command*/
-    println!("Hello, world!"); // print hello world
+    game::bataille_with_stack();
 }
 
