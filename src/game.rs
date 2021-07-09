@@ -266,7 +266,7 @@ fn transfer_a_card_with_stack( p1:&mut Player, p2:&mut Player, stack:&mut Player
 
 }
 
-    struct Player{
+struct Player{
     name:String,
     deck:[u8;200],
     start:u32,
